@@ -1,5 +1,5 @@
 $(function () {
-  $('.gallery__list').slick({
+  $(".products-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -9,16 +9,14 @@ $(function () {
     speed: 1000,
     dots: false,
     centerMode: true,
-    cssEase: 'linear',
-    prevArrow: '.gallery__list-left',
-    nextArrow: '.gallery__list-right',
-    
+    cssEase: "linear",
+    prevArrow: ".products-list-left",
+    nextArrow: ".products-list-right",
   });
 });
-
 
 $(function () {
-  $('.reviews__list').slick({
+  $(".process-list").slick({
     infinite: true,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -28,16 +26,8 @@ $(function () {
     speed: 1000,
     dots: false,
     centerMode: true,
-    cssEase: 'linear',
-    prevArrow: '.reviews__list-left',
-    nextArrow: '.reviews__list-right',
-    
+    cssEase: "linear",
+    prevArrow: ".process-list-left",
+    nextArrow: ".process-list-right",
   });
 });
-
-
-
-
-
-
-

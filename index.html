@@ -10,7 +10,6 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
-
     <link
       rel="stylesheet"
       type="text/css"
@@ -18,6 +17,7 @@
     />
     <link rel="stylesheet" type="text/css" href="slick/slick.css" />
     <link rel="stylesheet" href="css/main.css" />
+
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
 
@@ -48,10 +48,10 @@
             <a href="/#about" class="navigation__link">Chi Siamo</a>
           </li>
           <li class="navigation__item">
-            <a href="/#gallery" class="navigation__link">Prodotti </a>
+            <a href="/#gallery" class="navigation__link">Prodotti</a>
           </li>
           <li class="navigation__item">
-            <a href="/#blog" class="navigation__link">Servizi Offerti </a>
+            <a href="/#blog" class="navigation__link">Servizi Offerti</a>
           </li>
           <li class="navigation__item">
             <a href="/#reviews" class="navigation__link">Come Funziona</a>
@@ -64,18 +64,18 @@
             <a href="/#contact " class="navigation__link">Contatti e Ordini</a>
           </li>
           <li class="navigation__item">
-            <a class="navigation__link header__icon-home-img" href="terms.html"
+            <a class="navigation__link header__icon-hero-img" href="terms.html"
               >Termini e Condizioni</a
             >
           </li>
 
           <li class="navigation__item">
-            <a class="navigation__link header__icon-home-img" href="cookie.html"
+            <a class="navigation__link header__icon-hero-img" href="cookie.html"
               >Politica sui Cookie</a
             >
           </li>
           <li class="navigation__item">
-            <a class="navigation__link header__icon-home-img" href="policy.html"
+            <a class="navigation__link header__icon-hero-img" href="policy.html"
               >Politica sulla Privacy</a
             >
           </li>
@@ -104,280 +104,298 @@
     </header>
 
     <main class="main">
-      <section class="home" id="home">
-        <div class="home__wrapper">
-          <div class="home__wrapper-two">
-            <p class="home-title">Pro Star Adventure Quest</p>
-            <p class="home-text">Dolcezza su Misura!</p>
-            <p class="home-text-two">
+      <section class="hero" id="hero">
+        <div class="hero-wrapper">
+          <div class="hero-wrapper-two">
+            <h1 class="hero-title">Pro Star Adventure Quest</h1>
+            <h2 class="hero-text">Dolcezza su Misura!</h2>
+            <h3 class="hero-text-two">
               Scopri i nostri dessert artigianali: dolci unici per ogni
               occasione.
-            </p>
+            </h3>
           </div>
-          <div class="home-img"><img src="/img/home/image.png" alt="" /></div>
+          <div class="hero-img">
+            <img src="/img/hero/image.png" alt="Dessert artigianali" />
+          </div>
         </div>
       </section>
 
       <section class="about" id="about">
-        <div class="about-container-top">
-          <h2 class="about-title">Chi Siamo</h2>
-          <p class="about-text">
+        <div class="intro">
+          <h2 class="title">Chi Siamo</h2>
+          <p class="description">
             Siamo un laboratorio artigianale di dolci, dedicato a creare
             esperienze dolci uniche. Ogni dessert è realizzato con passione,
             ingredienti freschi e attenzione ai dettagli.
           </p>
         </div>
-        <div class="about-container-bottom">
-          <div class="feature-list">
-            <div class="feature">Ingredienti naturali e freschi</div>
-            <div class="feature">Personalizzazione per ogni evento</div>
-            <div class="feature">Consegna puntuale</div>
-            <div class="feature">Esperienza con eventi privati e aziendali</div>
-          </div>
-          <div class="about-img">
-            <img src="/img/about/about.png" alt="" />
+        <div class="about-content">
+          <ul class="about-features">
+            <li class="about-feature">Ingredienti naturali e freschi</li>
+            <li class="about-feature">Personalizzazione per ogni evento</li>
+            <li class="about-feature">Consegna puntuale</li>
+            <li class="about-feature">
+              Esperienza con eventi privati e aziendali
+            </li>
+          </ul>
+          <div class="about-image">
+            <img src="/img/about/about.png" alt="Dolci artigianali" />
           </div>
         </div>
       </section>
 
-      <section class="gallery" id="gallery">
-        <div class="about-container-top">
-          <h2 class="gallery-title">Prodotti</h2>
-          <p class="gallery-title-text">
-            Dolci che conquistano il cuore e il palato.
-          </p>
-        </div>
-        <div class="gallery-button-container gallery-button-container-desk">
-          <button class="gallery-button gallery__list-left">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320691.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button gallery__list-right">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320692.png"
-              alt=""
-            />
-          </button>
-        </div>
-        <div class="gallery__container">
-          <div class="gallery__phone">
-            <ul class="gallery__list">
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/image (3).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Torte Personalizzate</p>
-                  <p class="gallery-text">
-                    Disegnate su misura per matrimoni, compleanni e altre
-                    occasioni speciali.
-                  </p>
-                </div>
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/image (4).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Cupcake e Muffin</p>
-                  <p class="gallery-text">
-                    Deliziosi dolcetti con decorazioni originali.
-                  </p>
-                </div>
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/image (5).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Macaron e Biscotti</p>
-                  <p class="gallery-text">
-                    Perfetti per regali e piccoli piaceri quotidiani.
-                  </p>
-                </div>
-              </li>
-              <li class="gallery__item">
-                <img
-                  class="gallery-avatar"
-                  src="./img/gallery/image (6).png"
-                  alt="User Avatar"
-                />
-                <div class="gallery-item-text">
-                  <p class="gallery-item-title">Dolci Stagionali</p>
-                  <p class="gallery-text">
-                    Specialità ispirate alle festività e alle stagioni.
-                  </p>
-                </div>
-              </li>
-            </ul>
+      <section class="products" id="products">
+        <div class="products-container">
+          <div class="intro">
+            <h2 class="title">Prodotti</h2>
+            <p class="description products-description">
+              Dolci che conquistano il cuore e il palato.
+            </p>
           </div>
-        </div>
-        <div class="gallery-button-container gallery-button-container-phone">
-          <button class="gallery-button gallery__list-left">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320691.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button gallery__list-right">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320692.png"
-              alt=""
-            />
-          </button>
+
+          <div class="products-buttons products-buttons-desktop">
+            <button class="products-button products-list-left">
+              <img
+                class="products-button-icon"
+                src="img/gallery/Frame 427320691.png"
+                alt="Left"
+              />
+            </button>
+            <button class="products-button products-list-right">
+              <img
+                class="products-button-icon"
+                src="img/gallery/Frame 427320692.png"
+                alt="Right"
+              />
+            </button>
+          </div>
+
+          <ul class="products-list">
+            <li class="products-item">
+              <img
+                class="products-item-image"
+                src="./img/gallery/image (3).png"
+                alt="Torte Personalizzate"
+              />
+              <div class="products-item-text">
+                <p class="products-item-title">Torte Personalizzate</p>
+                <p class="products-item-description">
+                  Disegnate su misura per matrimoni, compleanni e altre
+                  occasioni speciali.
+                </p>
+              </div>
+            </li>
+            <li class="products-item">
+              <img
+                class="products-item-image"
+                src="./img/gallery/image (4).png"
+                alt="Cupcake e Muffin"
+              />
+              <div class="products-item-text">
+                <p class="products-item-title">Cupcake e Muffin</p>
+                <p class="products-item-description">
+                  Deliziosi dolcetti con decorazioni originali.
+                </p>
+              </div>
+            </li>
+            <li class="products-item">
+              <img
+                class="products-item-image"
+                src="./img/gallery/image (5).png"
+                alt="Macaron e Biscotti"
+              />
+              <div class="products-item-text">
+                <p class="products-item-title">Macaron e Biscotti</p>
+                <p class="products-item-description">
+                  Perfetti per regali e piccoli piaceri quotidiani.
+                </p>
+              </div>
+            </li>
+            <li class="products-item">
+              <img
+                class="products-item-image"
+                src="./img/gallery/image (6).png"
+                alt="Dolci Stagionali"
+              />
+              <div class="products-item-text">
+                <p class="products-item-title">Dolci Stagionali</p>
+                <p class="products-item-description">
+                  Specialità ispirate alle festività e alle stagioni.
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="products-buttons products-buttons-phone">
+            <button class="products-button products-list-left">
+              <img
+                class="products-button-icon"
+                src="img/gallery/Frame 427320691.png"
+                alt="Left"
+              />
+            </button>
+            <button class="products-button products-list-right">
+              <img
+                class="products-button-icon"
+                src="img/gallery/Frame 427320692.png"
+                alt="Right"
+              />
+            </button>
+          </div>
         </div>
       </section>
 
-      <section class="blog" id="blog">
-        <div class="about-container-top">
-          <h2 class="about-title">Servizi Offerti</h2>
-          <p class="blog-title-text">
+      <section class="services" id="services">
+        <div class="intro">
+          <h2 class="title">Servizi Offerti</h2>
+          <p class="description services-description">
             Soddisfiamo ogni tua esigenza dolce con i nostri servizi.
           </p>
         </div>
-        <div class="blog-images">
-          <div class="blog-img">
-            <img src="/img/blog/344fa52a7b864e21c403205f805df337.png" alt="" />
+
+        <div class="services-images">
+          <div class="services-image">
+            <img src="/img/services/image.png" alt="Servizio 1" />
           </div>
-          <div class="blog-img blog-img-two">
-            <img src="/img/blog/image (7).png" alt="" />
+          <div class="services-image services-image-second">
+            <img src="/img/services/image (7).png" alt="Servizio 2" />
           </div>
         </div>
-        <ul class="blog__list">
-          <li class="blog-item">
-            <p class="blog-text">
-              <span class="blog-item-title">Personalizzazione Dessert: </span>
+
+        <ul class="services-list">
+          <li class="services-item">
+            <p class="services-text">
+              <span class="services-item-title"
+                >Personalizzazione Dessert:
+              </span>
               "Realizziamo dolci con decorazioni e temi unici."
             </p>
           </li>
-          <li class="blog-item">
-            <p class="blog-text">
-              <span class="blog-item-title">Consegna a Domicilio: </span>
+          <li class="services-item">
+            <p class="services-text">
+              <span class="services-item-title">Consegna a Domicilio: </span>
               "Portiamo la dolcezza direttamente a casa tua o al tuo evento."
             </p>
           </li>
-          <li class="blog-item">
-            <p class="blog-text">
-              <span class="blog-item-title">Catering Dolci:</span>
+          <li class="services-item">
+            <p class="services-text">
+              <span class="services-item-title">Catering Dolci: </span>
               "Dessert table per matrimoni, feste aziendali e compleanni."
             </p>
           </li>
-          <li class="blog-item">
-            <p class="blog-text">
-              <span class="blog-item-title">Consulenza Personalizzata: </span>
+          <li class="services-item">
+            <p class="services-text">
+              <span class="services-item-title"
+                >Consulenza Personalizzata:
+              </span>
               "Ti aiutiamo a scegliere il dolce perfetto per ogni occasione."
             </p>
           </li>
         </ul>
       </section>
 
-      <section class="reviews" id="reviews">
-        <h2 class="about-title">Come Funziona</h2>
-        <p class="about-text reviews-texts">
-          Dal primo contatto alla consegna, il nostro processo è semplice e
-          chiaro.
-        </p>
-        <div class="gallery-button-container gallery-button-container-desk">
-          <button class="gallery-button reviews__list-left">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320691.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button reviews__list-right">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320692.png"
-              alt=""
-            />
-          </button>
-        </div>
-        <ul class="reviews__list">
-          <li class="">
-            <div class="reviews-item">
+      <section class="process" id="process">
+        <div class="process-container">
+          <div class="intro process-intro">
+            <h2 class="title">Come Funziona</h2>
+            <p class="description process-description">
+              Dal primo contatto alla consegna, il nostro processo è semplice e
+              chiaro.
+            </p>
+          </div>
+          <div class="products-buttons products-buttons-desktop">
+            <button class="products-button process-list-left">
               <img
-                class="reviews-avatar"
-                src="./img/reviews/image (12).png"
-                alt="User Avatar"
+                class="products-button-icon"
+                src="img/gallery/Frame 427320691.png"
+                alt="Left"
               />
-              <p class="reviews-text">
-                Richiesta: "Raccontaci la tua idea o scegli dal nostro menu."
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="reviews-item">
+            </button>
+            <button class="products-button process-list-right">
               <img
-                class="reviews-avatar"
-                src="./img/reviews/image (9).png"
-                alt="User Avatar"
+                class="products-button-icon"
+                src="img/gallery/Frame 427320692.png"
+                alt="Right"
               />
-              <p class="reviews-text">
-                Preventivo: "Ricevi un preventivo personalizzato senza impegno."
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="reviews-item">
+            </button>
+          </div>
+
+          <ul class="process-list">
+            <li>
+              <div class="process-item">
+                <img
+                  class="process-item-avatar"
+                  src="./img/reviews/image (12).png"
+                  alt="Richiesta"
+                />
+                <p class="process-item-text">
+                  Richiesta: "Raccontaci la tua idea o scegli dal nostro menu."
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="process-item">
+                <img
+                  class="process-item-avatar"
+                  src="./img/reviews/image (9).png"
+                  alt="Preventivo"
+                />
+                <p class="process-item-text">
+                  Preventivo: "Ricevi un preventivo personalizzato senza
+                  impegno."
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="process-item">
+                <img
+                  class="process-item-avatar"
+                  src="./img/reviews/image (10).png"
+                  alt="Preparazione"
+                />
+                <p class="process-item-text">
+                  Preparazione: "Realizziamo il tuo dolce con cura e passione."
+                </p>
+              </div>
+            </li>
+            <li>
+              <div class="process-item">
+                <img
+                  class="process-item-avatar"
+                  src="./img/reviews/image (11).png"
+                  alt="Consegna o Ritiro"
+                />
+                <p class="process-item-text">
+                  Consegna o Ritiro: "Consegniamo o puoi ritirare direttamente
+                  presso la nostra sede."
+                </p>
+              </div>
+            </li>
+          </ul>
+
+          <div class="products-buttons products-buttons-phone">
+            <button class="products-button process-list-left">
               <img
-                class="reviews-avatar"
-                src="./img/reviews/image (10).png"
-                alt="User Avatar"
+                class="products-button-icon"
+                src="img/gallery/Frame 427320691.png"
+                alt="Left"
               />
-              <p class="reviews-text">
-                Preparazione: "Realizziamo il tuo dolce con cura e passione."
-              </p>
-            </div>
-          </li>
-          <li>
-            <div class="reviews-item">
+            </button>
+            <button class="products-button process-list-right">
               <img
-                class="reviews-avatar"
-                src="./img/reviews/image (11).png"
-                alt="User Avatar"
+                class="products-button-icon"
+                src="img/gallery/Frame 427320692.png"
+                alt="Right"
               />
-              <p class="reviews-text">
-                Consegna o Ritiro: "Consegniamo o puoi ritirare direttamente
-                presso la nostra sede."
-              </p>
-            </div>
-          </li>
-        </ul>
-        <div class="gallery-button-container gallery-button-container-phone">
-          <button class="gallery-button reviews__list-left">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320691.png"
-              alt=""
-            />
-          </button>
-          <button class="gallery-button reviews__list-right">
-            <img
-              class="gallery-button-icon"
-              src="img/gallery/Frame 427320692.png"
-              alt=""
-            />
-          </button>
+            </button>
+          </div>
         </div>
       </section>
 
       <section class="testimonials" id="testimonials">
-        <div class="">
-          <h2 class="about-title">Testimonianze</h2>
-          <p class="about-text reviews-texts">
+        <div class="intro process-intro">
+          <h2 class="title">Testimonianze</h2>
+          <p class="description process-description">
             Le opinioni di chi ha scelto Start Path Adventure.
           </p>
         </div>
@@ -420,49 +438,58 @@
         </div>
       </section>
       <section class="contact" id="contact">
-        <h2 class="contact-title">Contatti e Ordini</h2>
-        <div class="form">
-          <div class="form-container">
-            <input type="text" placeholder="Nome" class="form-input" />
-            <input type="email" placeholder="E-mail " class="form-input" />
-            <input type="tel" placeholder="Telefono" class="form-input" />
-            <input type="text" placeholder="Messaggio" class="form-input" />
+        <div class="contact-container">
+          <h2 class="contact-title">Contatti e Ordini</h2>
 
-            <a class="form-button" href="" target="_blank">Fai un Ordine</a>
+          <div class="contact-wrapper">
+            <div class="contact-form-container">
+              <input type="text" placeholder="Nome" class="contact-input" />
+              <input type="email" placeholder="E-mail" class="contact-input" />
+              <input type="tel" placeholder="Telefono" class="contact-input" />
+              <input
+                type="text"
+                placeholder="Messaggio"
+                class="contact-input"
+              />
+
+              <a class="contact-button" href="" target="_blank"
+                >Fai un Ordine</a
+              >
+            </div>
+
+            <div class="contact-image-container">
+              <img
+                class="contact-image"
+                src="/img/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png"
+                alt="Contatto"
+              />
+            </div>
           </div>
-          <div class="contact-img-container">
-            <img
-              class="contact-img-phone"
-              src="/img/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png"
-              alt=""
-            />
-          </div>
+
+          <ul class="contact-info-list">
+            <li class="contact-info-item">
+              <img src="/img/contact/Frame 39786.png" alt="Indirizzo" />
+              <p class="contact-info-text">
+                Contrada Barbieri 63 Rocco veneto, 38793 Pesaro e Urbino, Italia
+              </p>
+            </li>
+            <li class="contact-info-item">
+              <img src="/img/contact/Frame 39786 (1).png" alt="Telefono" />
+              <p class="contact-info-text">+67 77 50250986</p>
+            </li>
+            <li class="contact-info-item">
+              <img src="/img/contact/Frame 39786 (2).png" alt="Email" />
+              <p class="contact-info-text">
+                <a
+                  href="mailto:info@prostaradventurequest.com"
+                  class="contact-info-text"
+                >
+                  info@prostaradventurequest.com
+                </a>
+              </p>
+            </li>
+          </ul>
         </div>
-
-        <ul class="contact-adress-container">
-          <li class="contact-adress">
-            <img src="/img/contact/Frame 39786.png" alt="" />
-            <p class="contact-img-container-text">
-              Contrada Barbieri 63 Rocco veneto, 38793 Pesaro e Urbino, Italia
-            </p>
-          </li>
-          <li class="contact-adress">
-            <img src="/img/contact/Frame 39786 (1).png" alt="" />
-            <p class="contact-img-container-text">+67 77 50250986</p>
-          </li>
-          <li class="contact-adress">
-            <img src="/img/contact/Frame 39786 (2).png" alt="" />
-
-            <p class="contact-img-container-text">
-              <a
-                href="mailto:info@prostaradventurequest.com"
-                class="contact-img-container-text"
-              >
-                info@prostaradventurequest.com</a
-              >
-            </p>
-          </li>
-        </ul>
       </section>
     </main>
 
@@ -486,11 +513,7 @@
       crossorigin="anonymous"
     ></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+
     <script src="js/slick.js"></script>
   </body>
 </html>
