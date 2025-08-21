@@ -2,7 +2,7 @@
 
 **Pro Star Adventure Quest** is a responsive website for artisanal desserts, showcasing products, services, and the dessert ordering process.
 
-![Hero Image](img/hero/image.png)  
+<img src="img/hero/image.png" alt="Hero Image" width="572" height="634"/>  
 
 ---
 
@@ -26,29 +26,31 @@
 - **Slick Carousel** for sliders  
 - **LocalStorage** for cookie consent  
 
-## 🔹 Screenshots & Interactive GIF Gallery
+---
+
+## 🔹 Screenshots & Gallery
 
 ### Home / Hero
-<img src="img/hero/image.png" alt="Hero Image" width="600"/>
+<img src="img/hero/image.png" alt="Hero Image" width="572" height="634"/>
 
 ### About Section
-<img src="img/about/about.png" alt="About Section" width="600"/>
+<img src="img/about/about.png" alt="About Section" width="1304" height="430"/>
 
 ### Products Section
-Click to view carousel animation:  
-<a href="https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif" target="_blank">
-  <img src="https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif" alt="Products Slider GIF" width="600"/>
-</a>
+<img src="img/gallery/image (3).png" alt="Torte Personalizzate" width="335"/>
+<img src="img/gallery/image (4).png" alt="Cupcake e Muffin" width="335"/>
+<img src="img/gallery/image (5).png" alt="Macaron e Biscotti" width="335"/>
+<img src="img/gallery/image (6).png" alt="Dolci Stagionali" width="335"/>
 
 ### Services Section
 <img src="img/services/image.png" alt="Services Section" width="600"/>
 <img src="img/services/image (7).png" alt="Services Section 2" width="600"/>
 
 ### Ordering Process
-Click to view step-by-step animation:  
-<a href="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif" target="_blank">
-  <img src="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif" alt="Process Slider GIF" width="600"/>
-</a>
+<img src="img/reviews/image (12).png" alt="Richiesta" width="400"/>
+<img src="img/reviews/image (9).png" alt="Preventivo" width="400"/>
+<img src="img/reviews/image (10).png" alt="Preparazione" width="400"/>
+<img src="img/reviews/image (11).png" alt="Consegna o Ritiro" width="400"/>
 
 ### Testimonials Section
 <img src="img/testimonials/Group 7.png" alt="Testimonials" width="400"/>
@@ -58,6 +60,7 @@ Click to view step-by-step animation:
 ### Contact Section
 <img src="img/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png" alt="Contact Section" width="600"/>
 
+---
 
 ## 🔹 Quick Links
 
@@ -81,5 +84,5 @@ Click to view step-by-step animation:
 
 ## 🔹 License
 
-This project is for educational purposes only.  
+This project is for educational purposes only.
 
