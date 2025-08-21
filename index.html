@@ -31,77 +31,16 @@
         </p>
         <div class="cookie-button-container">
           <button id="decline-cookies" class="cookie-button">
-            Cookies Settting
+            Decline Cookies
           </button>
           <button id="accept-cookies" class="cookie-button">
-            Accept All Cookies
+            Accept Cookies
           </button>
         </div>
       </div>
     </div>
 
-    <header class="header">
-      <div class="header__background"></div>
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="/#about" class="navigation__link">Chi Siamo</a>
-          </li>
-          <li class="navigation__item">
-            <a href="/#gallery" class="navigation__link">Prodotti</a>
-          </li>
-          <li class="navigation__item">
-            <a href="/#blog" class="navigation__link">Servizi Offerti</a>
-          </li>
-          <li class="navigation__item">
-            <a href="/#reviews" class="navigation__link">Come Funziona</a>
-          </li>
-
-          <li class="navigation__item">
-            <a href="/#testimonials" class="navigation__link">Testimonianze</a>
-          </li>
-          <li class="navigation__item">
-            <a href="/#contact " class="navigation__link">Contatti e Ordini</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link header__icon-hero-img" href="terms.html"
-              >Termini e Condizioni</a
-            >
-          </li>
-
-          <li class="navigation__item">
-            <a class="navigation__link header__icon-hero-img" href="cookie.html"
-              >Politica sui Cookie</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link header__icon-hero-img" href="policy.html"
-              >Politica sulla Privacy</a
-            >
-          </li>
-        </ul>
-
-        <div class="header__button-wrapper">
-          <a href="/" class="">
-            <img href="/" class="header__icon-button" src="" alt=""
-          /></a>
-
-          <button type="button" class="header__icon-button" data-menu-button>
-            <img
-              class="header__icon header__icon--menu"
-              src="img/header/Frame 2.png"
-              alt=""
-            />
-
-            <img
-              class="header__icon header__icon--close close"
-              src="img/header/ep_close-bold.png"
-              alt=""
-            />
-          </button>
-        </div>
-      </nav>
-    </header>
+    <div id="header-placeholder"></div>
 
     <main class="main">
       <section class="hero" id="hero">
@@ -437,6 +376,7 @@
           </ul>
         </div>
       </section>
+
       <section class="contact" id="contact">
         <div class="contact-container">
           <h2 class="contact-title">Contatti e Ordini</h2>
@@ -452,9 +392,9 @@
                 class="contact-input"
               />
 
-              <a class="contact-button" href="" target="_blank"
-                >Fai un Ordine</a
-              >
+              <button class="contact-button" href="" target="_blank">
+                Fai un Ordine
+              </button>
             </div>
 
             <div class="contact-image-container">
@@ -468,45 +408,42 @@
 
           <ul class="contact-info-list">
             <li class="contact-info-item">
-              <img src="/img/contact/Frame 39786.png" alt="Indirizzo" />
-              <p class="contact-info-text">
+              <img src="/img/contact/Frame 39786.png" alt="address" />
+
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-info-text"
+                href="https://www.google.com/maps/search/?api=1&query=Contrada+Barbieri+63+Rocco+veneto+38793+Pesaro+e+Urbino+Italia"
+              >
                 Contrada Barbieri 63 Rocco veneto, 38793 Pesaro e Urbino, Italia
-              </p>
+              </a>
             </li>
             <li class="contact-info-item">
-              <img src="/img/contact/Frame 39786 (1).png" alt="Telefono" />
-              <p class="contact-info-text">+67 77 50250986</p>
+              <img src="/img/contact/Frame 39786 (1).png" alt="phone" />
+
+              <a class="contact-info-text" href="tel:+677750250986"
+                >+67 77 50250986</a
+              >
             </li>
             <li class="contact-info-item">
-              <img src="/img/contact/Frame 39786 (2).png" alt="Email" />
-              <p class="contact-info-text">
-                <a
-                  href="mailto:info@prostaradventurequest.com"
-                  class="contact-info-text"
-                >
-                  info@prostaradventurequest.com
-                </a>
-              </p>
+              <img src="/img/contact/Frame 39786 (2).png" alt="email" />
+
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-info-text"
+                href="mailto:info@prostaradventurequest.com"
+                >info@prostaradventurequest.com</a
+              >
             </li>
           </ul>
         </div>
       </section>
     </main>
 
-    <footer class="footer">
-      <div class="footer-container">
-        <div class="footer-wrapper">
-          <a class="footer-text" href="terms.html">Termini e Condizioni</a>
-          <a class="footer-text" href="cookie.html">Politica sui Cookie</a>
-          <a class="footer-text" href="policy.html">Politica sulla Privacy</a>
-        </div>
-        <p class="footer-copyright">
-          © 2024 prostaradventurequest.com. Tutti i diritti riservati.
-        </p>
-      </div>
-    </footer>
+    <div id="footer-placeholder"></div>
 
-    <script src="js/mobile-menu.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
@@ -514,6 +451,8 @@
     ></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
 
+    <script src="js/header-footer.js"></script>
+    <script src="js/cookie.js"></script>
     <script src="js/slick.js"></script>
   </body>
 </html>
