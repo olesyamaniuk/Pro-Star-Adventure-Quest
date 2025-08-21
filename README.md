@@ -49,6 +49,11 @@
 
 ---
 
+## 🔹 Design / Figma
+📐 [View the Figma Design](https://www.figma.com/design/Ghfre6ZMKkjVFDPV9rc1Qf/Landing-prostaradventurequest.com-maket-3?node-id=4-1145&t=XA64m4O9hcyPLHfz-0)
+
+---
+
 ## 🔹 Quick Links
 
 | Action | Link |
