@@ -29,34 +29,35 @@
 ## 🔹 Screenshots & Interactive GIF Gallery
 
 ### Home / Hero
-![Hero Image](img/hero/image.png)  
+<img src="img/hero/image.png" alt="Hero Image" width="600"/>
 
 ### About Section
-![About Section](img/about/about.png)  
+<img src="img/about/about.png" alt="About Section" width="600"/>
 
 ### Products Section
 Click to view carousel animation:  
-[![Products Slider GIF](https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif)](https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif)  
+<a href="https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif" target="_blank">
+  <img src="https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif" alt="Products Slider GIF" width="600"/>
+</a>
 
 ### Services Section
-![Services Section](img/services/image.png)  
-![Services Section 2](img/services/image (7).png)  
+<img src="img/services/image.png" alt="Services Section" width="600"/>
+<img src="img/services/image (7).png" alt="Services Section 2" width="600"/>
 
 ### Ordering Process
 Click to view step-by-step animation:  
-[![Process Slider GIF](https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif)](https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif)  
+<a href="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif" target="_blank">
+  <img src="https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif" alt="Process Slider GIF" width="600"/>
+</a>
 
 ### Testimonials Section
-![Testimonials](img/testimonials/Group 7.png)  
-![Testimonials 2](img/testimonials/Mask group.png)  
-![Testimonials 3](img/testimonials/Mask group (1).png)  
+<img src="img/testimonials/Group 7.png" alt="Testimonials" width="400"/>
+<img src="img/testimonials/Mask group.png" alt="Testimonials 2" width="400"/>
+<img src="img/testimonials/Mask group (1).png" alt="Testimonials 3" width="400"/>
 
 ### Contact Section
-![Contact Section](img/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png)  
+<img src="img/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png" alt="Contact Section" width="600"/>
 
-> **Tip:** On GitHub, clicking the GIFs will open them in full screen for better viewing.
-
----
 
 ## 🔹 Quick Links
 
