@@ -1,116 +1,84 @@
-Pro Star Adventure Quest 🍰
+# Pro Star Adventure Quest 🍰
 
-Pro Star Adventure Quest is a responsive website for artisanal desserts, showcasing products, services, and the dessert ordering process.
+**Pro Star Adventure Quest** is a responsive website for artisanal desserts, showcasing products, services, and the dessert ordering process.
 
-🔹 Features
+![Hero Image](img/hero/image.png)  
 
-Modern responsive design for desktop and mobile.
+---
 
-Sections: Home
-, About
-, Products
-, Services
-, Process
-, Testimonials
-, Contact
-.
+## 🔹 Features
 
-Slick Carousel sliders for products and ordering process.
+- Modern **responsive design** for desktop and mobile.  
+- Sections: [Home](#hero), [About](#about), [Products](#products), [Services](#services), [Process](#process), [Testimonials](#testimonials), [Contact](#contact).  
+- **Slick Carousel** sliders for products and ordering process.  
+- Cookie popup with accept/decline functionality.  
+- Dynamic header and footer loaded via `fetch`.  
+- Contact form integrated with **Google Maps** for address.  
+- Simple and clear ordering process: from request to delivery.  
 
-Cookie popup with accept/decline functionality.
+---
 
-Dynamic header and footer loaded via fetch.
+## 🔹 Technologies
 
-Contact form integrated with Google Maps for address.
+- **HTML5**  
+- **CSS3**  
+- **JavaScript / jQuery**  
+- **Slick Carousel** for sliders  
+- **LocalStorage** for cookie consent  
 
-Simple and clear ordering process: from request to delivery.
+## 🔹 Screenshots & Interactive GIF Gallery
 
-🔹 Technologies
+### Home / Hero
+![Hero Image](img/hero/image.png)  
 
-HTML5
+### About Section
+![About Section](img/about/about.png)  
 
-CSS3
+### Products Section
+Click to view carousel animation:  
+[![Products Slider GIF](https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif)](https://media.giphy.com/media/3o7TKU8RvQuomFfUUU/giphy.gif)  
 
-JavaScript / jQuery
+### Services Section
+![Services Section](img/services/image.png)  
+![Services Section 2](img/services/image (7).png)  
 
-Slick Carousel for sliders
+### Ordering Process
+Click to view step-by-step animation:  
+[![Process Slider GIF](https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif)](https://media.giphy.com/media/l0MYB8Ory7Hqefo9a/giphy.gif)  
 
-AOS (Animate On Scroll) for animations
+### Testimonials Section
+![Testimonials](img/testimonials/Group 7.png)  
+![Testimonials 2](img/testimonials/Mask group.png)  
+![Testimonials 3](img/testimonials/Mask group (1).png)  
 
-LocalStorage for cookie consent
+### Contact Section
+![Contact Section](img/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png)  
 
-🔹 Project Structure
-/project-root
-│
-├─ index.html
-├─ css/
-│   └─ main.css
-├─ js/
-│   ├─ header-footer.js
-│   ├─ cookie.js
-│   └─ slick.js
-├─ img/
-│   ├─ hero/
-│   ├─ about/
-│   ├─ gallery/
-│   ├─ services/
-│   ├─ reviews/
-│   ├─ testimonials/
-│   └─ contact/
-└─ components/
-    ├─ header.html
-    └─ footer.html
+> **Tip:** On GitHub, clicking the GIFs will open them in full screen for better viewing.
 
-🔹 Screenshots & Interactive GIF Gallery
-Home / Hero
+---
 
-About Section
+## 🔹 Quick Links
 
-Products Section
+| Action | Link |
+|--------|------|
+| 🌐 Live Demo | [Open in Browser](index.html) |
+| 📥 Download | [Download ZIP](https://github.com/yourusername/pro-star-adventure-quest/archive/refs/heads/main.zip) |
+| 💻 Open Folder | [Open in VS Code](vscode://file/${PWD}/index.html) |
 
-Click to view carousel animation:
+> **Note:** Replace `yourusername` in the download link with your GitHub username.  
 
+---
 
-Services Section
+## 🔹 How to Use
 
+1. Clone the repository or download the files.  
+2. Open `index.html` in your browser.  
+3. For local development and proper component loading, run via a local server (e.g., **Live Server** in VS Code).  
 
-![Services Section 2](img/services/image (7).png)
+---
 
-Ordering Process
+## 🔹 License
 
-Click to view step-by-step animation:
+This project is for educational purposes only.  
 
-
-Testimonials Section
-
-![Testimonials](img/testimonials/Group 7.png)
-![Testimonials 2](img/testimonials/Mask group.png)
-![Testimonials 3](img/testimonials/Mask group (1).png)
-
-Contact Section
-
-![Contact Section](img/contact/freepik_edit_Candid-image-photography-natural-textures-highly-r (16) 1.png)
-
-Tip: On GitHub, clicking the GIFs will open them in full screen for better viewing.
-
-🔹 Quick Links
-Action	Link
-🌐 Live Demo	Open in Browser
-
-📥 Download	Download ZIP
-
-💻 Open Folder	Open in VS Code
-
-Note: Replace yourusername in the download link with your GitHub username.
-
-🔹 How to Use
-
-Clone the repository or download the files.
-
-Open index.html in your browser.
-
-For local development and proper component loading, run via a local server (e.g., Live Server in VS Code).
-
-🔹 License
-
-This project is for educational purposes only.
