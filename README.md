@@ -50,7 +50,7 @@
 ---
 
 ## 🔹 Design / Figma
-📐 [View the Figma Design](https://www.figma.com/design/Ghfre6ZMKkjVFDPV9rc1Qf/Landing-prostaradventurequest.com-maket-3?node-id=4-1145&t=XA64m4O9hcyPLHfz-0)
+📐 [View the Figma Design](https://www.figma.com/design/Ghfre6ZMKkjVFDPV9rc1Qf/Landing-prostaradventurequest.com-maket-3?node-id=4-43&t=eS2cIdFTViH71z2g-0)
 
 ---
 
@@ -58,10 +58,8 @@
 
 | Action | Link |
 |--------|------|
-| 🌐 Live Demo | [Open in Browser](index.html) |
-| 📥 Download | [Download ZIP](https://github.com/yourusername/pro-star-adventure-quest/archive/refs/heads/main.zip) |
-
-> **Note:** Replace `yourusername` in the download link with your GitHub username.  
+| 🌐 Live Demo | [Open in Browser]([index.html](https://pro-star-adventure-quest.vercel.app/)) |
+| 📥 Download | [Download ZIP](https://github.com/olesyamaniuk/pro-star-adventure-quest/archive/refs/heads/main.zip) |
 
 ---
 
