@@ -58,7 +58,7 @@
 
 | Action | Link |
 |--------|------|
-| 🌐 Live Demo | [[synthriva.netlify.app](https://pro-star-adventure-quest.vercel.app/)](https://pro-star-adventure-quest.vercel.app/) |
+| 🌐 Live Demo | [pro-star-adventure-quest.vercel.app](https://pro-star-adventure-quest.vercel.app/) |
 | 📥 Download | [Download ZIP](https://github.com/olesyamaniuk/pro-star-adventure-quest/archive/refs/heads/main.zip) |
 
 ---
